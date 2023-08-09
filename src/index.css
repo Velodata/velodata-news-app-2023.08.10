@@ -1,0 +1,152 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  Hello Ivy!
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans&family=Open+Sans&family=Signika+Negative:wght@600&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(36, 39, 41);
+  /* background-color: white; */
+  font-family: 'Inter', sans-serif;
+  /* min-height: calc(100vh + 50px); */
+  overflow-y: overlay;
+}
+
+.navbar {
+  background-color: rgb(41, 47, 51);
+  box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.2);
+  font-size: 0.9vw;
+}
+
+.card {
+  transition: 0.1s;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* width: 100%; */
+  height: 275px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card:hover {
+  box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.card-body {
+  transition: 0.3s;
+}
+
+.container-fluid {
+  width: 93%;
+}
+
+.btn {
+  background-color: #005abb;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.nav-item {
+  margin-left: 11px;
+}
+
+.navbar-nav {
+  margin-left: 30px;
+}
+
+.ReactFlagsSelect-module_flagsSelectInline__cUnnz {
+  display: initial;
+}
+
+.react-flags-select-css-options {
+  color: #cccccc;
+  border: thin solid rgba(255, 255, 255, 0.3);
+}
+
+#component-flags-select {
+  min-width: 200px;
+}
+
+#component-flags-select>div.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  display: none;
+}
+
+#component-flags-select.XXX-class-name>div.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  padding-bottom: unset;
+  display: contents;
+}
+
+#component-flags-select.XXX-class-name>div.ReactFlagsSelect-module_flagsSelect__2pfa2>ul.ReactFlagsSelect-module_alignOptionsToRight__3Qvq2 {
+  right: 80px;
+  min-width: 200px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .vdi-large-screen-only {
+    visibility: visible;
+    display: block;
+  }
+
+  .vdi-small-screen-only {
+    visibility: hidden;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .vdi-large-screen-only {
+    visibility: hidden;
+    display: none;
+  }
+
+  .vdi-small-screen-only {
+    visibility: visible;
+  }
+}
+
+
+@media (max-width: 1700px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 758px) {
+  .col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
